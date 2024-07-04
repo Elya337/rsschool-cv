@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Page Title</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#projects" class= "nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <h1>
+        My CV
+    </h1>
+    <img src="./assets/photo.jpg" alt="my photo" />
+    <div class="main-container">
+        <section class="section" id="profile">
+            <h2>
+                Profile
+            </h2>
+            <p>
+                Elvira Sultan-Muratova, 36, Russia
+            </p>
+        </section>
+        <section class="section" id="contacts">
+            <h2>
+                Contacts
+            </h2>
+            <ul>
+              <li>
+                <a href="tel:1234567890">Tel: 89609899878</a>
+              </li>
+              <li>
+                <a href="mailto:ghostlovescope@mail.ru">Mail: ghostlovescope@mail.ru</a>
+              </li>
+              <li>
+                <a href="https://discordapp.com/users/1254828538637320265/">RSSDiscord: Elya337</a>
+              </li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+        <h2>
+            Summary
+        </h2>
+        <p>
+            For over 15 years I have been working as a physician and teaching medicine. And today, that is no longer enough. Knowledge of programming can help improve the quality of medical practice, increase efficiency and improve patient outcomes. 
+        </p>
+        </section>
+        <section class="section" id="skills">
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2>
+                Code example
+            </h2>
+            <pre>
+                <code>
+                    function solution(str){
+                        return str.split('').reverse().join('');  
+                    }
+                </code>
+            </pre>
+        </section>
+        <section class="section" id="experience">
+            <h2>
+                Projects
+            </h2>
+            <a href="https://github.com/Elya337/rsschool-cv">CV</a>
+        </section>
+        <section class="section" id="education">
+            <h2>
+                Education
+            </h2>
+            <ul>
+                <li>
+                    OSMA: 2004-2010
+                </li>
+                <li>
+                    OSMA: 2010-2012
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="languages">
+            <h2>
+                Languages proficiency
+            </h2>
+            <ul>
+                <li>English: Intermediate</li>
+                <li>Russian: Native</li>
+            </ul>
+        </section>
+    </div>        
+</main>
+<footer>
+    <a href="https://github.com/Elya337">My GitHub</a>
+    <p>2024</p>
+    <a href="https://rs.school/courses/javascript-ru">
+        <img src="./assets/logo.svg" alt="Course logo"/>
+    </a>
 
-<h1>This is my CV</h1>
-<p>Here will be a content</p>
+</footer>
 
 </body>
 </html>
